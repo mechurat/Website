@@ -50,7 +50,7 @@ html{
 
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1240px) {
     /* For desktops: */
 	.col-1 {width: 8.33%;}
 	.col-2 {width: 16.66%;}
