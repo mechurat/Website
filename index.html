@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>PCC LLC. Home</title>
+		<meta name="description" content="For all your computing needs!">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="style-responsive.css">
+
+
+		<script type="text/javascript">
+			function toggleMenu() {
+				document.getElementById('top-nav').classList.toggle('active');
+			}
+		</script>
+	</head>
+	<body>
+
+		<header class="header row">
+
+			<a id="menu-toggle" onclick="toggleMenu()">
+			&#9776; Menu
+			</a>
+
+			<nav id="top-nav" class="row">
+				<ul>
+					<li><a class="link1 col-2" href="index.html">Home</a></li>
+					<li><a class="link1 col-2" href="services.html">Services</a></li>
+					<li><a class="link1 col-2" href="news.html">News</a></li>
+					<li><a class="link1 col-2" href="about.html">About</a></li>
+					<li><a class="link1 col-2" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="page-top" class="row">
+			<a class="col-2 col-m-6"href="index.html"> <img class="logo-img" src="img/logo.png" alt="Logo" title="PolyComp Consultants Logo"></a>
+			<h1 class="col-10 col-m-6 title no padding">PolyComputer Consultants LLC.</h1>
+			<p class="col-12 col-m-6 para"> Whatever computer work you need done, PolyComputer Consultants has your back every step of the way.
+			Check out our services below.</p>
+		</div>
+
+
+		<div class="row">
+			<!--- Here is where the scrolling image box goes. Needs slider selection
+			Scrolling image needs to be done in JavaScript and JQuery have a placeholder for now -->
+			<div id=box class="col-12 col-m-12"></div>
+
+		</div>
+
+			<div class="container">
+				<div class="row">
+				<!-- each service image will link to repective service page for more information. Each service page will have a link to the "Contact.html" page -->
+					<div class="col-3 col-m-6 extra-padding"><a href="services-repair.html">
+						<img class="imageWrap" src="img/repair.png" alt="Repair Image" title="Repair Services"></a>
+						<div class="img-desc"><strong>Computer Repair</strong></div>
+					</div>
+					<div class="col-3 col-m-6 extra-padding"><a href="services-support.html">
+						<img class="imageWrap" src="img/maintenance.png" alt="Support & Maintenance" title="Maintenance Services"></a>
+						<div class="img-desc"><strong>Support & Maintenance</strong></div>
+					</div>
+					<div class="col-3 col-m-6 extra-padding"><a href="services-backup.html">
+						<img class="imageWrap" src="img/data.png" alt="Data/Backup" title="Data Restore and Backup"></a>
+						<div class="img-desc"><strong>Data Restore & Backup</strong></div>
+					</div>
+					<div class="col-3 col-m-6 extra-padding"><a href="services-webdev.html">
+						<img class="imageWrap" src="img/webDev.png" alt="Web/Dev Image" title="Web Development"></a>
+						<div class="img-desc"><strong>Web Development</strong></div>
+					</div>
+				</div>
+			</div>
+
+		<div class="row bottom-bar siteNav">
+			<!-- Site navigation will include links to all pages, services may be abbreviated. Basic list at bottom
+			every page -->
+			<div class="col-2"></div>
+			<div class="col-2 col-m-6">
+				<h3>Contact Info</h3>
+				<p>PolyComputer Consultants LLC<br>Office in Brooklyn, Crown Heights,<br>Manhattan</p>
+			</div>
+			<div class="col-2 col-m-6">
+				<h3>Quick Links</h3>
+				<ul class="link-list">
+					<li><a href="#">Payment Options</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-2"></div>
+			<div class="col-2">
+				<h3>Questions? Call:</h3>
+				<p class="phoneNum">(732)882-9970</p>
+				<h5>pccmechura@gmail.com</h5>
+			</div>
+			<div class="col-2"></div>
+		</div>
+
+		<div class="row bottom-bar copy_footer ">
+			<!-- bottom of every HTML page -->
+			<CENTER><p class="col-12 col-m-12">&copy 2016. All Rights Reserved | Design by PolyComputer Consultants LLC - Tyler Mechura</p></CENTER>
+		</div>
+	</body>
+</html>

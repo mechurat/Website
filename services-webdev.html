@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>PCC LLC. Home</title>
+		<meta name="description" content="For all your computing needs!">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="style-responsive.css">
+
+
+		<script type="text/javascript">
+			function toggleMenu() {
+				document.getElementById('top-nav').classList.toggle('active');
+			}
+		</script>
+	</head>
+	<body>
+
+		<header class="header row">
+
+			<a id="menu-toggle" onclick="toggleMenu()">
+			&#9776; Menu
+			</a>
+
+			<nav id="top-nav" class="row">
+				<ul>
+					<li><a class="link1 col-2" href="index.html">Home</a></li>
+					<li><a class="link1 col-2" href="services.html">Services</a></li>
+					<li><a class="link1 col-2" href="news.html">News</a></li>
+					<li><a class="link1 col-2" href="about.html">About</a></li>
+					<li><a class="link1 col-2" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="row extra-padding"></div>
+		<div class="container75">
+			<div class="row">
+				<!-- each service image will link to repective service page for more information. Each service page will have a link to the "Contact.html" page -->
+				<h1 class="h1 col-12 col-m-12">Web Development</h1>
+				<p class="para col-8 col-m-7">Looking for a custom, responsive website? PolyComputer Consultants has the experience you need to give your business it's much needed modern internet look. <a href="contact.html">Call today!</a></p>
+				<ul class="col-4 col-m-5 sidebar">
+					<li id="sidebar-top"><strong>Our Services</strong></li>
+					<li><a class="active" href="services-repair.html">Computer Repair</a></li>
+					<li><a href="services-support.html">Support & Maintenance</a></li>
+					<li><a href="services-backup.html">Data Restore & Backup</a></li>
+					<li><a href="services-webdev.html">Web Development</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row bottom-bar siteNav">
+			<!-- Site navigation will include links to all pages, services may be abbreviated. Basic list at bottom
+			every page -->
+			<div class="col-2"></div>
+			<div class="col-2 col-m-6">
+				<h3>Contact Info</h3>
+				<p>PolyComputer Consultants LLC<br>Office in Brooklyn, Crown Heights,<br>Manhattan</p>
+			</div>
+			<div class="col-2 col-m-6">
+				<h3>Quick Links</h3>
+				<ul class="link-list">
+					<li><a href="#">Payment Options</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-2"></div>
+			<div class="col-2">
+				<h3>Questions? Call:</h3>
+				<p class="phoneNum">(732)882-9970</p>
+				<h5>pccmechura@gmail.com</h5>
+			</div>
+			<div class="col-2"></div>
+		</div>
+
+		<div class="row bottom-bar copy_footer ">
+			<!-- bottom of every HTML page -->
+			<CENTER><p class="col-12">&copy 2016. All Rights Reserved | Design by PolyComputer Consultants LLC - Tyler Mechura</p></CENTER>
+		</div>
+
+	</body>
+
+</html>
